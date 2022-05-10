@@ -1,0 +1,35 @@
+body{
+    background-color: lavender;
+}
+.container{
+    position:absolute;
+
+}
+.white-keys kbd{
+    position:relative;
+    display: inline-block;
+    background-color: white;
+    width: 50px;
+    height: 150px;
+    left:150px;
+    top: 105px;
+    margin: 0px;
+    border:2px solid black;
+    z-index: 0;
+    text-align: center;
+
+}
+.black-keys kbd{
+    position:relative;
+    display: inline-block;
+    background-color: black;
+    width: 17px;
+    height: 90px;
+    left:170px;
+    top:225px;
+    color: white;
+    margin: 25px;
+    z-index: 1;
+    border:2px solid white;
+}
+

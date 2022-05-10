@@ -1,0 +1,19 @@
+body{
+    background-color: lavender;
+}
+kbd{
+    display: inline-block;
+    width: 50px;
+    height:150px;
+    margin: 100px 0px 100px 0px;
+    background-color: white;
+    text-align: center;
+    border: black;
+    border-style: dashed;
+}
+div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
